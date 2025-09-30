@@ -15,6 +15,8 @@ struct ContentView: View {
         // ZStack -> Fondo
         
         VStack(
+            alignment: .center,
+            spacing: 30
         ) {
             Image(systemName: "globe")
                 .imageScale(.large)
