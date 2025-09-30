@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0FC8A8EB2E8C147200B7C15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC8A8D52E8C147100B7C15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FC8A8DC2E8C147100B7C15D;
+			remoteInfo = HolaSwift;
+		};
+		0FC8A8F52E8C147200B7C15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC8A8D52E8C147100B7C15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FC8A8DC2E8C147100B7C15D;
+			remoteInfo = HolaSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FC8A8DD2E8C147100B7C15D /* HolaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC8A8EA2E8C147200B7C15D /* HolaSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC8A8F42E8C147200B7C15D /* HolaSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0FC8A8DF2E8C147100B7C15D /* HolaSwift */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolaSwift;
+			sourceTree = "<group>";
+		};
+		0FC8A8ED2E8C147200B7C15D /* HolaSwiftTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolaSwiftTests;
+			sourceTree = "<group>";
+		};
+		0FC8A8F72E8C147200B7C15D /* HolaSwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolaSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FC8A8DA2E8C147100B7C15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC8A8E72E8C147200B7C15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC8A8F12E8C147200B7C15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC8A8D42E8C147100B7C15D = {
+			isa = PBXGroup;
+			children = (
+				0FC8A8DF2E8C147100B7C15D /* HolaSwift */,
+				0FC8A8ED2E8C147200B7C15D /* HolaSwiftTests */,
+				0FC8A8F72E8C147200B7C15D /* HolaSwiftUITests */,
+				0FC8A8DE2E8C147100B7C15D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FC8A8DE2E8C147100B7C15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FC8A8DD2E8C147100B7C15D /* HolaSwift.app */,
+				0FC8A8EA2E8C147200B7C15D /* HolaSwiftTests.xctest */,
+				0FC8A8F42E8C147200B7C15D /* HolaSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FC8A8DC2E8C147100B7C15D /* HolaSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC8A8FE2E8C147200B7C15D /* Build configuration list for PBXNativeTarget "HolaSwift" */;
+			buildPhases = (
+				0FC8A8D92E8C147100B7C15D /* Sources */,
+				0FC8A8DA2E8C147100B7C15D /* Frameworks */,
+				0FC8A8DB2E8C147100B7C15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0FC8A8DF2E8C147100B7C15D /* HolaSwift */,
+			);
+			name = HolaSwift;
+			packageProductDependencies = (
+			);
+			productName = HolaSwift;
+			productReference = 0FC8A8DD2E8C147100B7C15D /* HolaSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FC8A8E92E8C147200B7C15D /* HolaSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC8A9012E8C147200B7C15D /* Build configuration list for PBXNativeTarget "HolaSwiftTests" */;
+			buildPhases = (
+				0FC8A8E62E8C147200B7C15D /* Sources */,
+				0FC8A8E72E8C147200B7C15D /* Frameworks */,
+				0FC8A8E82E8C147200B7C15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC8A8EC2E8C147200B7C15D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0FC8A8ED2E8C147200B7C15D /* HolaSwiftTests */,
+			);
+			name = HolaSwiftTests;
+			packageProductDependencies = (
+			);
+			productName = HolaSwiftTests;
+			productReference = 0FC8A8EA2E8C147200B7C15D /* HolaSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FC8A8F32E8C147200B7C15D /* HolaSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC8A9042E8C147200B7C15D /* Build configuration list for PBXNativeTarget "HolaSwiftUITests" */;
+			buildPhases = (
+				0FC8A8F02E8C147200B7C15D /* Sources */,
+				0FC8A8F12E8C147200B7C15D /* Frameworks */,
+				0FC8A8F22E8C147200B7C15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC8A8F62E8C147200B7C15D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0FC8A8F72E8C147200B7C15D /* HolaSwiftUITests */,
+			);
+			name = HolaSwiftUITests;
+			packageProductDependencies = (
+			);
+			productName = HolaSwiftUITests;
+			productReference = 0FC8A8F42E8C147200B7C15D /* HolaSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FC8A8D52E8C147100B7C15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					0FC8A8DC2E8C147100B7C15D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0FC8A8E92E8C147200B7C15D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0FC8A8DC2E8C147100B7C15D;
+					};
+					0FC8A8F32E8C147200B7C15D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 0FC8A8DC2E8C147100B7C15D;
+					};
+				};
+			};
+			buildConfigurationList = 0FC8A8D82E8C147100B7C15D /* Build configuration list for PBXProject "HolaSwift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FC8A8D42E8C147100B7C15D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0FC8A8DE2E8C147100B7C15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FC8A8DC2E8C147100B7C15D /* HolaSwift */,
+				0FC8A8E92E8C147200B7C15D /* HolaSwiftTests */,
+				0FC8A8F32E8C147200B7C15D /* HolaSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FC8A8DB2E8C147100B7C15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC8A8E82E8C147200B7C15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC8A8F22E8C147200B7C15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FC8A8D92E8C147100B7C15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC8A8E62E8C147200B7C15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC8A8F02E8C147200B7C15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FC8A8EC2E8C147200B7C15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FC8A8DC2E8C147100B7C15D /* HolaSwift */;
+			targetProxy = 0FC8A8EB2E8C147200B7C15D /* PBXContainerItemProxy */;
+		};
+		0FC8A8F62E8C147200B7C15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FC8A8DC2E8C147100B7C15D /* HolaSwift */;
+			targetProxy = 0FC8A8F52E8C147200B7C15D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FC8A8FC2E8C147200B7C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P97W4YLJ4H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FC8A8FD2E8C147200B7C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P97W4YLJ4H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FC8A8FF2E8C147200B7C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P97W4YLJ4H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.estholon.HolaSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FC8A9002E8C147200B7C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P97W4YLJ4H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.estholon.HolaSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FC8A9022E8C147200B7C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P97W4YLJ4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.estholon.HolaSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HolaSwift";
+			};
+			name = Debug;
+		};
+		0FC8A9032E8C147200B7C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P97W4YLJ4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.estholon.HolaSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolaSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HolaSwift";
+			};
+			name = Release;
+		};
+		0FC8A9052E8C147200B7C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P97W4YLJ4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.estholon.HolaSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolaSwift;
+			};
+			name = Debug;
+		};
+		0FC8A9062E8C147200B7C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P97W4YLJ4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.estholon.HolaSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolaSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FC8A8D82E8C147100B7C15D /* Build configuration list for PBXProject "HolaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC8A8FC2E8C147200B7C15D /* Debug */,
+				0FC8A8FD2E8C147200B7C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC8A8FE2E8C147200B7C15D /* Build configuration list for PBXNativeTarget "HolaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC8A8FF2E8C147200B7C15D /* Debug */,
+				0FC8A9002E8C147200B7C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC8A9012E8C147200B7C15D /* Build configuration list for PBXNativeTarget "HolaSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC8A9022E8C147200B7C15D /* Debug */,
+				0FC8A9032E8C147200B7C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC8A9042E8C147200B7C15D /* Build configuration list for PBXNativeTarget "HolaSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC8A9052E8C147200B7C15D /* Debug */,
+				0FC8A9062E8C147200B7C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FC8A8D52E8C147100B7C15D /* Project object */;
+}
